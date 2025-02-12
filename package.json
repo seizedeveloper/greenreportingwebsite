@@ -5,10 +5,15 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
+<<<<<<< HEAD
     "start": "start",
+=======
+    "start": "npx serve -s dist -l $PORT",
+>>>>>>> 11809d77eb518c4062b2772d2ba7208e2bd3497f
     "build": "vite build",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "heroku-postbuild": "npm run build"
   },
   "dependencies": {
     "bootstrap": "^5.3.3",
