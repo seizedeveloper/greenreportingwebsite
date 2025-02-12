@@ -5,11 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-<<<<<<< HEAD
-    "start": "start",
-=======
-    "start": "npx serve -s dist -l $PORT",
->>>>>>> 11809d77eb518c4062b2772d2ba7208e2bd3497f
+    "start": "npx serve -s dist -l 3000",
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview",
