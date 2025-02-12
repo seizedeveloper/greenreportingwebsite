@@ -14,7 +14,12 @@ export default function header() {
     <>
       <header className="textColor ">
         <div className="container-fluid d-flex justify-content-between align-items-center">
-          <h1 className="h1">Green Reporting</h1>
+          <div className="d-flex justify-content-between align-items-center">
+            <img src="./logo.png" alt="" style={{ width: '4rem' }} />
+            <h1 className="h1" style={{ margin: '0' }}>
+              Green Reporting
+            </h1>
+          </div>
           <nav>
             <ul className="nav">
               <li className="nav-item h3">
