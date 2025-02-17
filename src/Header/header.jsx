@@ -70,7 +70,7 @@ export default function header() {
                     border: 'solid 1px #879738',
                     borderRadius: '0.5rem',
                   }}
-                  href="https://greenreportingwebapp-ecfd2a120043.herokuapp.com/"
+                  href="http://dashboard.green-reporting.com/"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
