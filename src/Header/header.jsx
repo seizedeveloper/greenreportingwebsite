@@ -15,7 +15,12 @@ export default function header() {
       <header className="textColor ">
         <div className="container-fluid d-flex justify-content-between align-items-center">
           <div className="d-flex justify-content-between align-items-center">
-            <img src="./logo.png" alt="" style={{ width: '4rem' }} />
+            <img
+              src="./logo.png"
+              alt=""
+              className="logo"
+              style={{ width: '4rem' }}
+            />
             <h1 className="h1" style={{ margin: '0' }}>
               Green Reporting
             </h1>
@@ -55,7 +60,7 @@ export default function header() {
                   Log In
                 </a>
               </li>
-              <li className="nav-item h3">
+              <li className="nav-item h3 free-trial">
                 <a
                   className="btn btn-color ms-2 "
                   style={{

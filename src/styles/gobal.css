@@ -23,3 +23,108 @@ body {
   margin: 0 auto; /* Center the container */
   padding: 20px; /* Add inner spacing */
 }
+
+@media (max-width: 768px) {
+  #root {
+    padding: 0.5rem;
+  }
+
+  .container-fluid {
+    padding: 0;
+  }
+
+  .nav-item {
+    display: none;
+  }
+
+  .free-trial {
+    display: inline-block !important;
+  }
+
+  .free-trial a {
+    width: auto !important;
+    height: auto !important;
+    font-size: 1rem !important;
+    border: none !important;
+    border-radius: auto !important;
+  }
+
+  .logo {
+    width: 2rem;
+  }
+
+  .h1 {
+    font-size: larger;
+  }
+
+  .py-5 {
+    padding-top: 3rem !important;
+    padding-bottom: 3rem !important;
+  }
+
+  .px-5 {
+    padding-left: 1rem !important;
+    padding-right: 1rem !important;
+  }
+
+  .mb-5 {
+    margin-bottom: 1rem !important;
+  }
+
+  .display-4 {
+    font-size: medium;
+  }
+
+  .lead {
+    font-size: small;
+  }
+
+  .custom {
+    flex-direction: column;
+  }
+
+  .img {
+    margin-top: 10%;
+    margin-bottom: 10%;
+    display: flex;
+    justify-content: center;
+  }
+
+  .img img {
+    width: 20rem;
+  }
+
+  .m {
+    margin-right: 0.5rem;
+    padding: 0;
+  }
+
+  .btn {
+    display: flex;
+  }
+
+  .btn-size {
+    font-size: medium;
+    width: 10rem;
+    height: 4rem;
+  }
+
+  .extra-illustration img {
+    width: 8rem;
+    height: 10rem;
+  }
+
+  .sustainability-container {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    padding: 1rem;
+  }
+
+  .content {
+    grid-column: 2/-1;
+  }
+
+  .place {
+    flex-direction: column-reverse;
+  }
+}

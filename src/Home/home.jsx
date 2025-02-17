@@ -1,10 +1,11 @@
 import React, { useState } from 'react'
 import { useNavigate } from 'react-router-dom'
+import '../styles/gobal.css'
 
 export default function home() {
   return (
     <>
-      <section className="text-center py-5 mb-5" style={{ minWidth: '100vh' }}>
+      <section className="text-center py-5 mb-5" style={{ minWidth: '100%' }}>
         <div className="container-fluid">
           <h2 className="display-4 ralewayFont textColor">
             Empowering Sustainability, One Report at a Time{' '}
@@ -35,7 +36,7 @@ export default function home() {
             }}
           >
             <h2 className="display-4 ralewayFont textColor">
-              Guiding Your Business towards a <br /> Greener Footprint
+              Guiding Your Business towards <br />a Greener Footprint
             </h2>
             <p
               className="lead ralewayFont text-color"
@@ -43,12 +44,12 @@ export default function home() {
             >
               Measure, Manage, and Minimize your carbon footprint
             </p>
-            <div className="mt-5">
+            <div className="mt-5 btn">
               <button className="btn-color m btn-size">Get Started Now</button>
               <button className="btn-outline btn-size">Learn More</button>
             </div>
           </div>
-          <div style={{ minWidth: '30%' }}>
+          <div className="img" style={{ minWidth: '30%' }}>
             <img src="..\_x30_3.png" alt="" />
           </div>
         </div>
@@ -130,19 +131,22 @@ export default function home() {
           </p>
         </div>
         <div style={{ minWidth: '10%' }}></div>
-        <div style={{ minWidth: '30%', alignContent: 'right' }}>
+        <div className="img" style={{ minWidth: '30%', alignContent: 'right' }}>
           <img src="..\Group 3907.png" alt="" />
         </div>
       </section>
 
       {/* Manage Section  */}
-      <section className="py-5 mb-5 custom px-5">
-        <div style={{ minWidth: '30%', alignContent: 'center' }}>
+      <section className="py-5 mb-5 custom place px-5">
+        <div
+          className="img"
+          style={{ minWidth: '30%', alignContent: 'center' }}
+        >
           <img src="..\undraw_online-organizer_1kdy 1.png" alt="" />
         </div>
         <div style={{ minWidth: '10%' }}></div>
         <div
-          className="container-fluid"
+          className="container-flui"
           style={{
             minWidth: '60%',
             justifyContent: 'center',
@@ -202,7 +206,7 @@ export default function home() {
           </p>
         </div>
         <div style={{ minWidth: '10%' }}></div>
-        <div style={{ minWidth: '30%', alignContent: 'right' }}>
+        <div className="img" style={{ minWidth: '30%', alignContent: 'right' }}>
           <img src="..\Group 3914.png" alt="" />
         </div>
       </section>
