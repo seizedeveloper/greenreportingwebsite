@@ -137,10 +137,17 @@ export default function home() {
       </section>
 
       {/* Manage Section  */}
-      <section className="py-5 mb-5 custom place px-5">
+      <section
+        className="py-5 mb-5 custom place px-5"
+        style={{
+          display: 'flex',
+          justifyContent: 'space-between', // Ensures elements are spaced out
+          alignItems: 'center', // Ensures responsiveness
+        }}
+      >
         <div
           className="img"
-          style={{ minWidth: '30%', alignContent: 'center' }}
+          style={{ minWidth: '20%', alignContent: 'center' }}
         >
           <img src="..\undraw_online-organizer_1kdy 1.png" alt="" />
         </div>
