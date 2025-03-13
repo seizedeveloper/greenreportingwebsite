@@ -74,11 +74,6 @@ export default function Header() {
                   Contact Us
                 </a>
               </li>
-              <li className="nav-item h3">
-                <a className="nav-link textColor" href="#login">
-                  Log In
-                </a>
-              </li>
               <li className="nav-item h3 free-trial">
                 <button
                   className="btn btn-color ms-2"
