@@ -30,7 +30,7 @@ const contact_us = () => {
 
       <section className="py-5 mb-5 custom px-5">
         <div
-          className="custom "
+          className="custom"
           style={{
             minWidth: '100%',
             justifyContent: 'center',
@@ -49,7 +49,20 @@ const contact_us = () => {
             style={{ marginBottom: '0' }}
           >
             <span>&#9993;</span>
-            <b>support@green-reporting.com</b>
+            <b>
+              <a
+                href="https://mail.google.com/mail/?view=cm&fs=1&to=info@green-reporting.com"
+                target="_blank"
+                rel="noopener noreferrer"
+                style={{
+                  textDecoration: 'none',
+                  color: '#9f513a',
+                  fontWeight: 'bold',
+                }}
+              >
+                info@green-reporting.com
+              </a>
+            </b>
             <br />
             Our team is ready to assist you. We aim to respond to all inquiries
             within 24 hours.
